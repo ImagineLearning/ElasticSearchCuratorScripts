@@ -7,7 +7,7 @@ Scripts to maintain elastic search cluster.
 * You need to install the curator python modul `pip install elasticsearch-curator` [Other install options](https://www.elastic.co/guide/en/elasticsearch/client/curator/4.0/installation.html)
 
 ## Additional Documentation
-These script is nother more than a convenient wrapper around Curator. For doing real things you can visit their documentation for more ideas or anything else you may want to do.
+These script is nothing more than a convenient wrapper around Curator. For doing real things you can visit their documentation for more ideas or anything else you may want to do.
 
 [Curator documentation](http://curator.readthedocs.io/en/4.0/)
 
