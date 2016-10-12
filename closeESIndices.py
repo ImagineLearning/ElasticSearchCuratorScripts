@@ -30,6 +30,6 @@ def main():
 
 if __name__ == "__main__":
     #for debug purposes simulate args
-    #sys.argv = ['deleteESIndices.py', 'url', 'logs-index', '-d', '5']
+    #sys.argv = ['closeESIndices.py', 'url', 'logs-index', '-d', '5']
     #sys.argv = ['-h']
     main()
