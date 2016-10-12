@@ -26,7 +26,7 @@ def main():
         close_indices.do_action()
         print "Successfullly closed indices"
     except curator.NoIndices:
-        print "Nothing found meeting the criteria to delete, check your prefix name and that there are items to delete"
+        print "Nothing found meeting the criteria to close, check your prefix name and that there are items to close"
 
 if __name__ == "__main__":
     #for debug purposes simulate args
