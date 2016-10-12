@@ -20,6 +20,8 @@ def main():
         ilo.filter_by_regex(kind='prefix', value=args.prefix)
         ilo.filter_by_age(source=args.dateSource, direction='older', timestring=args.dateFormat, unit='days', unit_count=args.daysToKeep)
         ilo.filter_closed(True)
+        print 'closing...'
+        print '\n'.join(ilo.all_indices)
         close_indices = curator.Close(ilo)
         close_indices.do_action()
         print "Successfullly closed indices"
